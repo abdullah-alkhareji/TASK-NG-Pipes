@@ -1,6 +1,11 @@
 import { Component, Input } from '@angular/core';
 import { User } from '../../data/users';
-import { TitleCasePipe, DatePipe, CurrencyPipe } from '@angular/common';
+import {
+  TitleCasePipe,
+  DatePipe,
+  CurrencyPipe,
+  UpperCasePipe,
+} from '@angular/common';
 import { TextColorPipe } from '../text-color.pipe';
 import { LastLoginPipe } from '../last-login.pipe';
 import { RegistrationDatePipe } from '../registration-date.pipe';
@@ -15,6 +20,7 @@ import { RegistrationDatePipe } from '../registration-date.pipe';
     TextColorPipe,
     LastLoginPipe,
     RegistrationDatePipe,
+    UpperCasePipe,
   ],
   templateUrl: './user.component.html',
   styleUrl: './user.component.css',

@@ -3,7 +3,7 @@
 
   <p class="user-status">
     Status:
-    <span [style.color]="data.status | textColor">{{ data.status }}</span>
+    <span [style.color]="data.status | textColor">{{ data.status | uppercase }}</span>
   </p>
 
   <p class="user-info">

@@ -1,15 +1,15 @@
 .user-card {
-  border: 1px solid #e0e0e0;
+  border: 1px solid #5b21b6;
   border-radius: 10px;
   padding: 16px;
-  background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  background-color: #171717;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.05);
   width: 100%;
   min-width: 270px;
 }
 
 .user-name {
-  font-size: 1.25rem;
+  font-size: 2rem;
   font-weight: 600;
   color: #5b21b6;
   margin-bottom: 8px;
@@ -17,8 +17,8 @@
 
 .user-status,
 .user-info {
-  font-size: 0.95rem;
-  color: #333;
+  font-size: 1.25rem;
+  color: #fff;
   margin: 6px 0;
 }
 
