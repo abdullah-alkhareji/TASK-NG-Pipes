@@ -12,11 +12,11 @@
   </p>
 
   <p class="user-info">
-    Registered: {{ data.registrationDate | date : "MMM dd, yyyy" }}
+    Registered: {{ data.registrationDate | date : "mediumDate" }}
   </p>
 
   <p class="user-info last-login">
-    Last Login: {{ data.lastLogin | date : "MMM dd, yyyy" }}
+    Last Login: {{ data.lastLogin | date : "mediumDate" }}
     <span>{{ data.lastLogin | lastLogin }}</span>
   </p>
 </div>
