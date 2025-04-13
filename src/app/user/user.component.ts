@@ -1,12 +1,21 @@
 import { Component, Input } from '@angular/core';
 import { User } from '../../data/users';
+import { TitleCasePipe, DatePipe, CurrencyPipe } from '@angular/common';
+import { TextColorPipe } from '../text-color.pipe';
+import { LastLoginPipe } from '../last-login.pipe';
 
 @Component({
   selector: 'app-user',
   standalone: true,
-  imports: [],
+  imports: [
+    TitleCasePipe,
+    DatePipe,
+    CurrencyPipe,
+    TextColorPipe,
+    LastLoginPipe,
+  ],
   templateUrl: './user.component.html',
-  styleUrl: './user.component.css'
+  styleUrl: './user.component.css',
 })
 export class UserComponent {
   @Input() data!: User;
