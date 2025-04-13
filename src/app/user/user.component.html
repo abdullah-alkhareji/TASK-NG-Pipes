@@ -13,7 +13,7 @@
 
   <p class="user-info">
     Registered: {{ data.registrationDate | date : "mediumDate" }}
-  </p>
+    <span>{{ data.registrationDate | registrationDate }}</span>
 
   <p class="user-info last-login">
     Last Login: {{ data.lastLogin | date : "mediumDate" }}
